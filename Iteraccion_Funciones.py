@@ -54,7 +54,6 @@ def evaluar_jugada( dado1, dado2 ):
 # print(evaluar_jugada(valor1, valor2))
 
 # Practica 2
-lista_numeros = [1,2,15,7,2,30,15]
 def reducir_lista( lista ):
     lista = set(lista)
     lista = list(lista)
@@ -62,6 +61,7 @@ def reducir_lista( lista ):
     lista.pop(len(lista) - 1)
     return lista
 
+lista_numeros = [1,2,15,7,2,30,15]
 # print(reducir_lista(lista_numeros))
 
 # Practica 3
