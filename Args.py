@@ -30,4 +30,4 @@ print(suma_absolutos(-10, 1, -20, 3))
 def numeros_persona( nombre, *args ):
     return f"{nombre}, la suma de tus números es {sum(args)}"
 
-print(numeros_persona('Jorge', 1,2,3,4,5,6))
+print(numeros_persona('Jorge', 100,200,300))
